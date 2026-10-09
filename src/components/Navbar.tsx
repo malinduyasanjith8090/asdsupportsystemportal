@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { NavigationTab } from '../types';
-import { Menu, X, GitBranch, Brain, Home, Layers, Calendar, FileText, Tv, Users, Mail } from 'lucide-react';
+import { Menu, X, GitBranch, Home, Layers, Calendar, FileText, Tv, Users, Mail } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
+import { BloomLogo } from './BloomLogo';
 
 interface NavbarProps {
   activeTab: NavigationTab;
@@ -37,13 +38,13 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, onTabChange, onOpenFl
             onClick={() => handleNavClick('home')}
             className="flex items-center gap-2 sm:gap-2.5 text-left group cursor-pointer focus:outline-none max-w-full"
           >
-            <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-stone-950 text-white flex items-center justify-center font-bold shadow-xs group-hover:bg-stone-800 transition-colors shrink-0">
-              <Brain className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
+            <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-white border border-stone-200 flex items-center justify-center p-0.5 shadow-xs group-hover:border-stone-400 transition-colors shrink-0 overflow-hidden">
+              <BloomLogo className="w-full h-full" />
             </div>
             <div className="min-w-0">
               <div className="flex items-center gap-1.5 sm:gap-2">
                 <span className="font-bold text-sm sm:text-base lg:text-lg text-stone-950 tracking-tight truncate">
-                  ASD Support System
+                  Bloom <span className="text-stone-400 font-normal">·</span> ASD Support
                 </span>
                 <span className="hidden sm:inline-block text-[10px] font-mono font-semibold text-stone-700 bg-stone-100 border border-stone-200 px-1.5 py-0.5 rounded shrink-0">
                   R26-IT-037

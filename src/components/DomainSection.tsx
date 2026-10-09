@@ -7,6 +7,7 @@ import {
   PROJECT_METADATA 
 } from '../data/researchData';
 import { motion, AnimatePresence } from 'motion/react';
+import { BloomLogo } from './BloomLogo';
 import { 
   BookOpen, 
   Layers, 
@@ -472,10 +473,12 @@ export const DomainSection: React.FC<DomainSectionProps> = ({
                   }`}
                 >
                   <div className="flex items-center gap-2 text-stone-300 text-xs font-mono">
-                    <Smartphone className="w-4 h-4 text-white" />
+                    <div className="w-4 h-4 rounded-full bg-white flex items-center justify-center p-0.5 overflow-hidden shrink-0">
+                      <BloomLogo className="w-full h-full" />
+                    </div>
                     <span>Mobile Interface Layer</span>
                   </div>
-                  <div className="text-sm font-semibold text-white mt-1">Child & Caregiver App</div>
+                  <div className="text-sm font-semibold text-white mt-1">Bloom (Child & Caregiver App)</div>
                   <div className="text-xs text-stone-400 mt-1">React Native + Expo · Sensory Calm UI · AR View</div>
                 </button>
 

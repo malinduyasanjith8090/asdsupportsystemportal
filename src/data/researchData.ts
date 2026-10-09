@@ -350,8 +350,8 @@ export const MILESTONES: MilestoneItem[] = [
     percentage: 6,
     status: 'completed',
     category: 'document',
-    description: 'Submission of formal Topic Assessment Form (TAF) and individual component proposal reports detailing research objectives, background, methodology, and feasibility.',
-    deliverables: ['Topic Assessment Form (TAF V2.0)', 'Individual Project Proposal Reports (4 Documents)', 'Ethical clearance outline and supervisor declaration'],
+    description: 'Submission of formal Topic Assessment Form (TAF) and unified Project Proposal reports detailing research objectives, background, methodology, and feasibility across all 4 modules.',
+    deliverables: ['Topic Assessment Form (TAF V2.0)', 'Project Proposal Reports (All 4 Modules)', 'Ethical clearance outline and supervisor declaration'],
     feedbackNotes: 'Proposal approved by supervisory panel with positive endorsement on clinical relevance and Sri Lankan localization.'
   },
   {
@@ -419,9 +419,9 @@ export const MILESTONES: MilestoneItem[] = [
     allocatedMarks: 'Review Stage',
     status: 'completed',
     category: 'document',
-    description: 'Submission of comprehensive draft thesis documents comprising the main cohesive group dissertation alongside individual technical reports for each researcher.',
-    deliverables: ['Main Group Draft Thesis Document', '4 Individual Chapter Draft Theses', 'Turnitin Similarity Verification Reports'],
-    feedbackNotes: 'Draft theses compiled and uploaded to university SharePoint repository for supervisor final review.'
+    description: 'Submission of comprehensive Draft Thesis Report comprising the main cohesive group dissertation alongside individual technical reports for each researcher.',
+    deliverables: ['Draft Thesis Report (Comprehensive Group & Individual Volumes)', 'Turnitin Similarity Verification Reports'],
+    feedbackNotes: 'Draft Thesis Report compiled and uploaded to university SharePoint repository for supervisor final review.'
   },
   {
     id: 'm7',
@@ -531,130 +531,33 @@ export const PROJECT_DOCUMENTS: ProjectDocument[] = [
     ]
   },
   {
-    id: 'doc-proposal-yasanjith',
-    title: 'Project Proposal Report – Personalized Learning Module',
+    id: 'doc-proposal',
+    title: 'Project Proposal',
     category: 'proposal',
-    author: 'U. M. Yasanjith',
-    studentId: 'IT22224484',
+    author: 'Group R26-IT-037',
     date: 'March 2026',
     fileType: 'PDF',
-    sharepointUrl: 'https://mysliit-my.sharepoint.com/:b:/g/personal/it22224484_my_sliit_lk/IQCpzHRFEbTGTo7sNoyRA35sAYhgvsua4SwUBTnoOQvNUAA?e=hb4WVE',
-    description: 'Detailed proposal report investigating multi-objective adaptive learning algorithms, AR 3D interactive educational objects, and local cultural localization for ASD learners.',
+    sharepointUrl: 'https://mysliit-my.sharepoint.com/:f:/g/personal/it22224484_my_sliit_lk/IgCIyaIyTWnpTow14KLl52GTAa7X1z-GgI0L9wNu_DyrhdQ?e=hBySK7',
+    description: 'Unified project proposal repository comprising the complete academic research proposals across all 4 core modules: Personalized Learning, Games & Activities, Daily Routine Support, and Behavioral Training.',
     highlights: [
-      'In-depth literature survey on adaptive learning for neurodiverse children',
-      'Algorithmic design of the adaptive difficulty cost engine',
-      'Hardware and software system requirements (React Native, Firebase, SQLite)'
+      'Comprehensive project proposal repository covering all 4 core technical dimensions',
+      'In-depth literature survey, research questions, methodology, and feasibility analyses',
+      'System architecture models, Work Breakdown Structure (WBS), and ethical review protocols'
     ]
   },
   {
-    id: 'doc-proposal-jayalath',
-    title: 'Project Proposal Report – Games and Activities Module',
-    category: 'proposal',
-    author: 'Jayalath N. N',
-    studentId: 'IT22227072',
-    date: 'March 2026',
-    fileType: 'PDF',
-    sharepointUrl: 'https://mysliit-my.sharepoint.com/:b:/g/personal/it22224484_my_sliit_lk/IQDXG61wLwmhQb09-M_Bd_C8AaYSYbDlSvKRrU5rgSE9tyQ?e=indaKL',
-    description: 'Proposal report covering serious game design principles for autism, emotion recognition exercises, daily life stories, and the back-end evaluation analytics framework.',
-    highlights: [
-      'Evidence-based serious game mechanics for cognitive training',
-      'Emotion recognition interface design using non-overstimulating visual tokens',
-      'System evaluation metrics framework (engagement, usability, learning retention)'
-    ]
-  },
-  {
-    id: 'doc-proposal-premarathna',
-    title: 'Project Proposal Report – Daily Routine Support Module',
-    category: 'proposal',
-    author: 'Premarathna G.D.B.S',
-    studentId: 'IT22156488',
-    date: 'March 2026',
-    fileType: 'PDF',
-    sharepointUrl: 'https://mysliit-my.sharepoint.com/:b:/g/personal/it22224484_my_sliit_lk/IQBZphv0CmxrR7yy-zISckUcAZTVoyaZMh60-wgFUhR_s_I?e=gStoPA',
-    description: 'Proposal report presenting the visual daily schedule builder, gentle transition countdowns, calming activity library, and wearable sensor integration.',
-    highlights: [
-      'Analysis of transition anxiety and meltdown prevention techniques',
-      'Architecture of the visual schedule manager with caregiver remote control',
-      'Conservative physiological arousal detection protocol'
-    ]
-  },
-  {
-    id: 'doc-thesis-main',
-    title: 'Main Draft Thesis Document (Group Dissertation)',
+    id: 'doc-thesis',
+    title: 'Draft Thesis Report',
     category: 'thesis',
     author: 'Group R26-IT-037',
     date: 'October 2026',
     fileType: 'DOCX',
-    sharepointUrl: 'https://mysliit-my.sharepoint.com/:w:/g/personal/it22224484_my_sliit_lk/IQDSbkQycUMDSaELT_53GEzLARXlzjwgB5Mzp1v9s6vVLmQ?e=fvk4j3',
-    description: 'The master comprehensive draft thesis synthesizing the entire research endeavor, overall system architecture, cross-module communication, and collective evaluation findings.',
+    sharepointUrl: 'https://mysliit-my.sharepoint.com/:f:/g/personal/it22224484_my_sliit_lk/IgAOW_6FRMmxRJiFV0KRQkhdAVhraD1iKHalenmAe_T192Y?e=qIHYRg',
+    description: 'Consolidated draft thesis report repository combining the main group dissertation alongside the comprehensive individual technical draft thesis reports of all 4 researchers.',
     highlights: [
-      'Comprehensive system architecture uniting all 4 support dimensions',
-      'End-to-end data pipeline from local device storage to Firebase cloud',
-      'Synthesized evaluation results across usability, engagement, and accessibility'
-    ]
-  },
-  {
-    id: 'doc-thesis-yasanjith',
-    title: 'Draft Thesis – Personalized Learning Module',
-    category: 'thesis',
-    author: 'U. M. Yasanjith',
-    studentId: 'IT22224484',
-    date: 'October 2026',
-    fileType: 'DOCX',
-    sharepointUrl: 'https://mysliit-my.sharepoint.com/:w:/g/personal/it22224484_my_sliit_lk/IQBgw5MfFFJ0RKQJR93pJm5lAaZxITpCbiUp2JAZ8ASjYfQ?e=DLu4bQ',
-    description: 'Technical dissertation volume documenting implementation of the adaptive lesson engine, AR visual models, Sinhala speech datasets, and experimental testing results.',
-    highlights: [
-      'Detailed implementation of rule-based adaptive difficulty logic',
-      'Augmented reality rendering performance analysis on low-end Android smartphones',
-      'Usability survey results from special education instructors'
-    ]
-  },
-  {
-    id: 'doc-thesis-jayalath',
-    title: 'Draft Thesis – Games and Activities Module',
-    category: 'thesis',
-    author: 'Jayalath N. N',
-    studentId: 'IT22227072',
-    date: 'October 2026',
-    fileType: 'DOCX',
-    sharepointUrl: 'https://mysliit-my.sharepoint.com/:w:/g/personal/it22224484_my_sliit_lk/IQCetXX7npAeS4oXj_dtigtSAaj8zThkdI7Q42VJ9GR8_RA?e=ie0Cfw',
-    description: 'Technical dissertation volume presenting evaluation analytics algorithms, game interaction telemetry, emotion identification tasks, and child engagement data.',
-    highlights: [
-      'Empirical analysis of cognitive game performance across trial sessions',
-      'Evaluation of positive reinforcement mechanisms on attention maintenance',
-      'Caregiver satisfaction questionnaire outcomes'
-    ]
-  },
-  {
-    id: 'doc-thesis-savindi',
-    title: 'Draft Thesis – Behavioral Training Module',
-    category: 'thesis',
-    author: 'W. K. D. Savindi',
-    studentId: 'IT22181374',
-    date: 'October 2026',
-    fileType: 'DOCX',
-    sharepointUrl: 'https://mysliit-my.sharepoint.com/:w:/g/personal/it22224484_my_sliit_lk/IQA2xp55MnwMRZYP5JkfXx6QAUtcTOXgQPvCaBwHKVlVJ_Q?e=xXoONF',
-    description: 'Technical dissertation volume exploring fine motor dexterity stroke tracing, command response scenarios, computer vision assistive integration, and social training.',
-    highlights: [
-      'Stroke deviation analysis algorithms for fine motor tracing evaluation',
-      'Virtual scenario roleplay architecture for greeting and command compliance',
-      'Ethical considerations in camera-based interaction with autistic minors'
-    ]
-  },
-  {
-    id: 'doc-thesis-premarathna',
-    title: 'Draft Thesis – Daily Routine Support Module',
-    category: 'thesis',
-    author: 'Premarathna G.D.B.S',
-    studentId: 'IT22156488',
-    date: 'October 2026',
-    fileType: 'DOCX',
-    sharepointUrl: 'https://mysliit-my.sharepoint.com/:w:/g/personal/it22224484_my_sliit_lk/IQDAwKgEdLGTQKjzUZhOns-ZAdC2zu_mNtOGzb1x7LYaD2o?e=LR2s7R',
-    description: 'Technical dissertation volume detailing visual routine scheduling, transition countdown timers, calming audio-visual intervention design, and caregiver controls.',
-    highlights: [
-      'Caregiver routine editor design patterns and visual timeline rendering',
-      'Calming protocol effectiveness during simulated high-stress activity transitions',
-      'Data protection compliance under Sri Lanka Personal Data Protection Act No. 9'
+      'Comprehensive master group dissertation and all 4 individual technical draft thesis volumes',
+      'Detailed implementation records for adaptive learning, gamification, visual routines, and behavioral CV',
+      'Empirical evaluation telemetry, usability feedback metrics, and Turnitin similarity verification'
     ]
   },
   {

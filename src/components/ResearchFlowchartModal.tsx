@@ -48,8 +48,8 @@ export const ResearchFlowchartModal: React.FC<ResearchFlowchartModalProps> = ({ 
       timeframe: 'March 2026',
       status: 'completed',
       description: 'Defined ASD 1:93 prevalence in Sri Lanka, identified the 6 literature gaps, and defended project charter with 4-module research scope.',
-      keyDeliverable: 'Project Charter & 4 Component Proposals (R26-IT-037)',
-      deliverableLink: 'https://mysliit-my.sharepoint.com/:b:/g/personal/it22224484_my_sliit_lk/IQDUCqyCbhovQ7ySRfIEyxHcAZ8eBrtF-mO9Hk_IYuWiP3I?e=6yxbjL',
+      keyDeliverable: 'Project Proposal & Charter (R26-IT-037)',
+      deliverableLink: 'https://mysliit-my.sharepoint.com/:f:/g/personal/it22224484_my_sliit_lk/IgCIyaIyTWnpTow14KLl52GTAa7X1z-GgI0L9wNu_DyrhdQ?e=hBySK7',
       deliverableType: 'PDF',
       fourModuleStatus: 'Charter approved: Adaptive learning, cognitive games, routine, & behavior models.'
     },
@@ -87,8 +87,8 @@ export const ResearchFlowchartModal: React.FC<ResearchFlowchartModalProps> = ({ 
       timeframe: 'October 2026 (Active)',
       status: 'in_progress',
       description: 'Synthesized all empirical findings, architecture blueprints, and validation metrics into master thesis and deployed this public documentation web portal.',
-      keyDeliverable: 'Master Draft Thesis Document & Research Portal',
-      deliverableLink: 'https://mysliit-my.sharepoint.com/:w:/g/personal/it22224484_my_sliit_lk/IQDSbkQycUMDSaELT_53GEzLARXlzjwgB5Mzp1v9s6vVLmQ?e=fvk4j3',
+      keyDeliverable: 'Master Draft Thesis Report & Research Portal',
+      deliverableLink: 'https://mysliit-my.sharepoint.com/:f:/g/personal/it22224484_my_sliit_lk/IgAOW_6FRMmxRJiFV0KRQkhdAVhraD1iKHalenmAe_T192Y?e=qIHYRg',
       deliverableType: 'DOCX',
       fourModuleStatus: 'Complete thesis volumes compiled for all 4 research streams.'
     },

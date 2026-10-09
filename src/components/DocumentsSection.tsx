@@ -26,8 +26,8 @@ export const DocumentsSection: React.FC = () => {
   const categories = [
     { id: 'all', label: 'All Documents' },
     { id: 'charter', label: 'Project Charter' },
-    { id: 'proposal', label: 'Proposal Reports' },
-    { id: 'thesis', label: 'Draft Theses' },
+    { id: 'proposal', label: 'Project Proposal' },
+    { id: 'thesis', label: 'Draft Thesis Report' },
     { id: 'paper', label: 'IEEE Research Paper' }
   ];
 

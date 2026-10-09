@@ -2,6 +2,7 @@ import React from 'react';
 import { NavigationTab } from '../types';
 import { PROJECT_METADATA, MODULES_INFO, MILESTONES } from '../data/researchData';
 import { motion } from 'motion/react';
+import { BloomLogo } from './BloomLogo';
 import { 
   BookOpen, 
   ArrowRight, 
@@ -46,9 +47,11 @@ export const HomeSection: React.FC<HomeSectionProps> = ({
             <div className="lg:col-span-7 space-y-5 sm:space-y-6">
               {/* Chips row */}
               <div className="flex flex-wrap items-center gap-2">
-                <span className="hero-chip-bw">
-                  <Brain className="w-3.5 h-3.5 text-stone-300" />
-                  <span>Assistive Intelligence</span>
+                <span className="hero-chip-bw bg-white/10 hover:bg-white/15 transition-colors">
+                  <div className="w-4 h-4 rounded-full bg-white flex items-center justify-center p-0.5 overflow-hidden">
+                    <BloomLogo className="w-full h-full" />
+                  </div>
+                  <span className="font-semibold text-white">Bloom Mobile App</span>
                 </span>
                 <span className="hero-chip-bw">
                   <Layers className="w-3.5 h-3.5 text-stone-300" />
@@ -170,7 +173,47 @@ export const HomeSection: React.FC<HomeSectionProps> = ({
       </section>
 
       {/* 2. SECTION SURFACE: KEY METRICS / PILLARS RIBBON */}
-      <section id="overview" className="section-surface-bw rounded-3xl p-6 sm:p-10 border border-stone-200">
+      <section id="overview" className="section-surface-bw rounded-3xl p-6 sm:p-10 border border-stone-200 space-y-8">
+        {/* Bloom Mobile App Spotlight Card */}
+        <div className="bg-gradient-to-r from-stone-950 via-stone-900 to-stone-950 text-white rounded-2xl p-6 sm:p-8 border border-stone-800 shadow-xl flex flex-col md:flex-row items-center justify-between gap-6">
+          <div className="flex items-center gap-5 sm:gap-6">
+            <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-3xl bg-white border-2 border-stone-100 flex items-center justify-center p-2 shadow-2xl shrink-0">
+              <BloomLogo className="w-full h-full" showText={false} />
+            </div>
+            <div className="space-y-1.5">
+              <div className="flex items-center gap-2">
+                <span className="text-[10px] font-mono uppercase tracking-widest text-pink-300 font-bold bg-pink-950/80 border border-pink-800/50 px-2 py-0.5 rounded-full">
+                  Official Mobile App System
+                </span>
+                <span className="text-xs text-stone-400 font-mono">v1.0-RC</span>
+              </div>
+              <h3 className="text-xl sm:text-2xl font-bold tracking-tight text-white">
+                Bloom: The Child & Caregiver Assistive Companion
+              </h3>
+              <p className="text-xs sm:text-sm text-stone-300 max-w-xl leading-relaxed">
+                Designed specifically for neurodiverse children (ages 5–10) in Sri Lanka. Bloom combines calming multisensory feedback with positive reinforcement in Sinhala, Tamil, and English.
+              </p>
+            </div>
+          </div>
+
+          <div className="flex sm:flex-row md:flex-col gap-2.5 w-full md:w-auto shrink-0">
+            <button
+              onClick={() => onNavigate('domain')}
+              className="flex-1 md:flex-none inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-full bg-white text-stone-950 text-xs font-bold hover:bg-stone-100 transition shadow-md cursor-pointer"
+            >
+              <span>Explore Architecture</span>
+              <ArrowRight className="w-3.5 h-3.5" />
+            </button>
+            <button
+              onClick={onOpenFlowchart}
+              className="flex-1 md:flex-none inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-full bg-stone-800 text-stone-200 border border-stone-700 text-xs font-semibold hover:bg-stone-700 hover:text-white transition cursor-pointer"
+            >
+              <GitBranch className="w-3.5 h-3.5 text-stone-300" />
+              <span>Project Roadmap</span>
+            </button>
+          </div>
+        </div>
+
         <div className="max-w-7xl mx-auto space-y-6">
           <div className="section-divider-bw mb-2"></div>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">

@@ -1,7 +1,8 @@
 import React from 'react';
 import { NavigationTab } from '../types';
-import { ArrowUp, Building2, ShieldCheck, Brain } from 'lucide-react';
+import { ArrowUp, Building2, ShieldCheck } from 'lucide-react';
 import { PROJECT_METADATA } from '../data/researchData';
+import { BloomLogo } from './BloomLogo';
 
 interface FooterProps {
   onNavigate: (tab: NavigationTab) => void;
@@ -19,11 +20,11 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           {/* Col 1: Identity & Motto */}
           <div className="md:col-span-5 space-y-4">
             <div className="flex items-center gap-2.5">
-              <div className="w-8 h-8 rounded-lg bg-white text-stone-950 flex items-center justify-center font-bold">
-                <Brain className="w-4 h-4 text-stone-950" />
+              <div className="w-8 h-8 rounded-lg bg-white border border-stone-800 flex items-center justify-center p-0.5 overflow-hidden">
+                <BloomLogo className="w-full h-full" />
               </div>
               <span className="font-bold text-base text-white tracking-tight">
-                ASD Support System
+                Bloom <span className="text-stone-400 font-normal">·</span> ASD Support
               </span>
               <span className="text-[10px] font-mono text-stone-400 bg-stone-900 border border-stone-700 px-1.5 py-0.5 rounded">
                 R26-IT-037

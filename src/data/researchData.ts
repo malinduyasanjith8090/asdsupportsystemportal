@@ -561,6 +561,21 @@ export const PROJECT_DOCUMENTS: ProjectDocument[] = [
     ]
   },
   {
+    id: 'doc-logbooks',
+    title: 'Research Log Books',
+    category: 'logbook',
+    author: 'Group R26-IT-037',
+    date: 'October 2026',
+    fileType: 'PDF',
+    sharepointUrl: 'https://mysliit-my.sharepoint.com/:f:/g/personal/it22224484_my_sliit_lk/IgAockgxy1ILQJe0AoMYMxAmAUknF_3CVOEnMV_TpVakFl8?e=mQFsGm',
+    description: 'Supervisor-verified student research log books containing weekly progress logs, consultation notes, iterative development tracking, and supervisor verification sign-offs across all 4 research team members.',
+    highlights: [
+      'Official weekly research activity logs & supervisor meeting records for all 4 team members',
+      'Continuous progress verification across iterative sprints and technical deliverables',
+      'Supervisor endorsement and review sign-offs from Mrs. Uthpala Samarakoon & Ms. Suriyaa Kumari'
+    ]
+  },
+  {
     id: 'doc-ieee-paper',
     title: 'IEEE Research Paper – Support System for Children With Autism Spectrum Disorder in Sri Lanka',
     category: 'paper',

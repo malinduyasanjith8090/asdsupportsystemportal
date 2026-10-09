@@ -28,6 +28,7 @@ export const DocumentsSection: React.FC = () => {
     { id: 'charter', label: 'Project Charter' },
     { id: 'proposal', label: 'Project Proposal' },
     { id: 'thesis', label: 'Draft Thesis Report' },
+    { id: 'logbook', label: 'Research Log Books' },
     { id: 'paper', label: 'IEEE Research Paper' }
   ];
 
@@ -59,7 +60,7 @@ export const DocumentsSection: React.FC = () => {
           Research Documents & Download Repository
         </h1>
         <p className="text-stone-600 text-sm sm:text-base max-w-4xl leading-relaxed">
-          Access all published academic materials produced throughout the research lifecycle—from early project charters, topic assessment forms, and individual proposals to the draft thesis volumes and IEEE research paper.
+          Access all published academic materials produced throughout the research lifecycle—from early project charters, topic assessment forms, and project proposals to draft thesis volumes, research log books, and the IEEE research paper.
         </p>
       </div>
 

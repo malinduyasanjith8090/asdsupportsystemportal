@@ -52,7 +52,7 @@ export interface MilestoneItem {
 export interface ProjectDocument {
   id: string;
   title: string;
-  category: 'charter' | 'proposal' | 'thesis' | 'paper' | 'form' | 'checklist';
+  category: 'charter' | 'proposal' | 'thesis' | 'paper' | 'form' | 'checklist' | 'logbook';
   author: string;
   studentId?: string;
   date: string;
